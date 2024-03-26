@@ -1,3 +1,9 @@
+# This is my portfolio site which introduce me
+
+This project is using ReactJS, HTML, CSS, JavaScript and Tailwind.
+
+
+----------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
