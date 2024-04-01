@@ -5,9 +5,10 @@ import Button from '../atoms/Button';
 const Menu = () => {
   return (
     <div>
-      <Button>デフォルトボタン</Button>
-      <Button className="bg-red-500">赤いボタン</Button>
-      <Button className="bg-green-500">緑のボタン</Button>
+      <Button>Top</Button>
+      <Button className="bg-red-500">His</Button>
+      <Button className="bg-green-500">Can</Button>
+      <Button className="bg-yellow-500">?</Button>
     </div>
   );
 };
