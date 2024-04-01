@@ -1,11 +1,13 @@
 import './App.css';
-import Menu from '../src/components/molecules/Menu';
+import Header from './components/sections/Header';
+import Footer from './components/sections/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Menu />
-      aaa
+      <Header />
+      This is my resume site
+      <Footer />
     </div>
   );
 }

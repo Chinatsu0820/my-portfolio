@@ -1,0 +1,22 @@
+/* ----for footer----*/
+
+footer {
+    background: linear-gradient(rgba(164, 209, 225, 0), rgba(225, 164, 201, 0.7));
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+/* --DESKTOP-- */
+@media screen and (min-width: 960px) {
+   footer {
+    flex-direction: row;
+    justify-content: space-between;
+   }
+
+   .wrap-snsicon, p {
+    margin: 20px;
+   }
+}
