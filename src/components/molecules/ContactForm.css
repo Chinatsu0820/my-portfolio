@@ -1,0 +1,37 @@
+/*-- for Contact Form component --*/
+
+.contactform-itmes {
+    text-align: center;
+}
+
+.contactform-itmes textarea {
+    width: 70vw;
+}
+
+.submit-button {
+    background-color: rgb(255, 22, 111);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 3px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.submit-button:hover {
+    background-color: rgb(0, 195, 255);
+}
+
+.contact-submit-message{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* --DESKTOP-- */
+@media screen and (min-width: 960px) {
+    .contactform-itmes textarea {
+        width: 40vw;
+        height: 30vh;
+    }
+    
+ }
