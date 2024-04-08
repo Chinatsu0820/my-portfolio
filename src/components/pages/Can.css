@@ -1,0 +1,22 @@
+/*-- for what I can page--*/
+.can-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.can-page-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.can-imgs {
+    height: 30vh;   
+}
+
+.can-page h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
