@@ -11,19 +11,13 @@ function App() {
     <BrowserRouter>
     <div className='App'>
       <Header />
-      <Link to='/'>HOME</Link>
-      <br />
-      <Link to='/History'>History</Link>
-      <br />
-      <Link to='/Can'>Can</Link>
-      <br />
-      <Link to='/Contact'>Contact</Link>
-      <br />
+      <div className='Home'>
       <Routes>
         <Route path='/History' element={<History />} />
         <Route path='/Can' element={<Can />} />
         <Route path='/Contact' element={<Contact />} />
       </Routes>
+      </div>
       <Footer />
     </div>
     </BrowserRouter>

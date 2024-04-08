@@ -1,14 +1,23 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Button from '../atoms/Button';
+import './Menu.css';
 
-// MEMO : just test for the button
 const Menu = () => {
   return (
-    <div>
-      <Button>Top</Button>
-      <Button className="bg-red-500">His</Button>
-      <Button className="bg-green-500">Can</Button>
-      <Button className="bg-yellow-500">?</Button>
+    <div className='menu-button'>
+      <Link to='/'>
+        <Button>Top</Button>
+      </Link>
+      <Link to='/history'>
+        <Button>His</Button>
+      </Link>
+      <Link to='/can'>
+        <Button>Can</Button>
+      </Link>
+      <Link to='/contact'>
+        <Button>?</Button>
+      </Link>
     </div>
   );
 };

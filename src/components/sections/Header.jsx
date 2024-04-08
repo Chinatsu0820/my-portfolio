@@ -7,11 +7,7 @@ export default function Header() {
         <header>
            <nav>
             <Menu />
-            <p>Here is Nav</p>
            </nav>
-
-           <h1>Here is header</h1>
-
         </header>
     )
 }

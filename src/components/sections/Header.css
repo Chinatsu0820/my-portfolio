@@ -1,9 +1,10 @@
 /* ----for header---- */
 
 header {
-    background-color: pink;
+    background-color: yellow;
 }
 
 nav {
-    background-color: aqua;
+    background-color: yellow;
+    padding: 10px;
 }

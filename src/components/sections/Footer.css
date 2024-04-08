@@ -1,12 +1,16 @@
 /* ----for footer----*/
 
 footer {
-    background: linear-gradient(rgba(164, 209, 225, 0), rgba(225, 164, 201, 0.7));
+    background: black;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
+}
+
+.copywrite {
+    color:white
 }
 
 /* --DESKTOP-- */

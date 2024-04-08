@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <footer>
            <div className='wrap-snsicon'><SnsIcons /></div>
-           <p>&copy; 2024 Chinatu M. All Rights Reserved.</p>
+           <p className='copywrite'>&copy; 2024 Chinatu M. All Rights Reserved.</p>
         </footer>
     )
 }
