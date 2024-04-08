@@ -1,4 +1,4 @@
-# This is my portfolio site which introduce me
+# This is my portfolio site which introduces me
 
 This project is using ReactJS, HTML, CSS, JavaScript and Tailwind.
 
