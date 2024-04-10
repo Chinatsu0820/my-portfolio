@@ -2,10 +2,12 @@
 
 .contactform-itmes {
     text-align: center;
+    margin: 30px;
 }
 
 .contactform-itmes textarea {
     width: 70vw;
+    min-height: 30vh;
 }
 
 .submit-button {
@@ -25,6 +27,8 @@
 .contact-submit-message{
     font-size: 25px;
     font-weight: bold;
+    color:  rgb(255, 22, 111);
+    margin-top: 20px;
 }
 
 /* --DESKTOP-- */

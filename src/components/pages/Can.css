@@ -13,10 +13,19 @@
 }
 
 .can-imgs {
-    height: 30vh;   
+    max-height: 30vh;   
+    max-width: 60vw;
 }
 
 .can-page h1 {
     font-size: 30px;
     font-weight: bold;
+    margin: 10px;
 }
+
+@media screen and (min-width: 960px) {
+    .history-year {
+        margin: 5px;
+    }
+    
+ }
