@@ -1,6 +1,8 @@
 # This is my portfolio site which introduces me
 
-This project is using ReactJS, HTML, CSS, JavaScript and Tailwind.
+This is a website introducing me like a resume.
+This is using ReactJS, HTML, CSS, JavaScript and Tailwind.
+
 
 
 ----------------------------------------
