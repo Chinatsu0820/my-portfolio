@@ -1,0 +1,11 @@
+/*-- for Home component --*/
+.home-page h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .home-img {
+    max-height: 50vh;
+    max-width: 60vw;
+    margin: 40px auto 20px;
+  }

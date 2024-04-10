@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+* {
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "XROT" 0,
+      "YROT" 0;
+  }
+
 .App {
   display: flex;
   flex-direction: column;
@@ -6,19 +18,9 @@
   background-color: yellow;
 }
 
-.Home {
+.Top {
   flex-grow: 1; /* コンテンツが余白を埋めるように設定 */
   text-align: center;
-}
-
-.Home h1 {
-  font-size: 50px;
-  font-weight: bold;
-}
-
-.home-img {
-  height: 50vh;
-  margin: 20px auto;
 }
 
 .Footer {
